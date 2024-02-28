@@ -162,13 +162,121 @@
     //cidade: 'são paulo'
  //}
 
- const listaDeNomes = ["Mika","Paula","Vitor"]
+ //const listaDeNomes = ["Mika","Paula","Vitor"]
 
-const copiaListaDeNomes = [...listaDeNomes]
+//const copiaListaDeNomes = [...listaDeNomes]
 
-console.log(copiaListaDeNomes) ["Mika","Paula","Vitor"]
+//console.log(copiaListaDeNomes) ["Mika","Paula","Vitor"]
+/*
+const pessoa = {
+    nome: 'prof' ,
+    idade: 25,
+    email: 'prof@senacrs.com.br' ,
+    cidade: 'são paulo'
+ }
 
-          
-          
-  
+function exercicio4(objetoPessoa, arrayComida, 
+    objetoMelhorAmigo){
+    var novoObjeto = {...objetoPessoa, 
+    comidasPreferidas: arrayComida, melhorAmigo:
+    objetoMelhorAmigo};
+console.log(`O nome da pessoa é ${novoObjeto.nome}
+e suas comidas preferidas são ${novoObjeto.
+comidasPreferidas[0]}, ${novoObjeto.
+comidasPreferidas[1]}, ${novoObjeto. 
+comidasPreferidas[2]}. Seu melhor amigo se chama 
+${novoObjeto.melhorAmigo.nome} e tem ${novoObjeto.
+melhorAmigo.idade} anos.`);
+}
 
+exercicio4(pessoa, ["arroz", "feijao", "carne"], {nome:
+"Matheus" , idade:17});
+
+
+let condicao1 = true;
+
+if (condicao1){
+    //como o valor da consição é true,
+    //o codigo desse bloco é executado
+    console.log('Entrei no if 1!');
+}
+
+
+let condicao2 = false;
+
+if (condicao2){
+    //como o valor da consição é false,
+    //o codigo desse bloco não é executado
+    console.log('Entrei no if 1!');
+}
+
+    //
+function comparaDoisNumeros (num, num2){
+    if (num === num2)
+    {console.log("sucesso")}
+}
+    comparaDoisNumeros(prompt("digite num 1"), prompt
+    ("digite num 2"))
+
+    //
+function ex6(nome, idade){
+    if (idade >= 18){
+        return `${nome}, voce pode girigir`;
+    }
+}
+
+console.log(ex6(prompt("digite seu nome"),
+prompt("digite sua idade")));
+
+let condicao = false
+
+if (condicao){
+    console.log('Entrei no if!')
+} else{
+    //Como o valor da condição é false,
+    //o código do bloco else será excutado
+    console.log('Entrei no else!')
+}
+
+    //
+
+function comparaDoisNumeros (num, num2){
+    if (num === num2)
+    {console.log("sucesso")}
+else{ return(num !== num2)}
+
+    comparaDoisNumeros(prompt("digite num 1"), prompt
+    ("digite num 2"))
+
+}
+     //
+    
+let condicao1 = false
+let condicao2 = true
+
+if (condicao1){
+    console.log('Entrei no if 1!')
+} else {
+    //como o valor da condicao1 é false,
+    //o código do else será executado
+    if(condicao2){
+        //como o valor da condicao2 é true,
+        //executamos esse código!
+        console.log('Entrei no if 2!')
+    }
+}
+*/
+/*
+function comparaDoisNumeros (num, num2){
+    if (num === num2)
+    {console.log("sucesso")}
+    else{ return(num !== num2)}
+    if (num < num2)
+    {console.log("sucesso")}
+
+
+    comparaDoisNumeros(prompt("digite num 1"), prompt
+    ("digite num 2"))
+
+}
+*/
