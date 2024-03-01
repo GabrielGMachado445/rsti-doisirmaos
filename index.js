@@ -280,3 +280,92 @@ function comparaDoisNumeros (num, num2){
 
 }
 */
+/*
+function comparaDoisNumeros (num, num2){
+    if (num > num2){
+        return `o primeiro número (${num1}) é maior que o
+        segundo número (${num2}).`;
+    }   else if (num1 < num2) {
+        return `o primeiro numero (${num1}) é menor que o
+        segundo número (${num2}).`
+    }   else{
+
+    }
+    }
+*/
+/*
+let paisDeOrigem
+if (paisDeOrigem === 'Brasil'){
+    console.log('brasileiro')
+} else if (paisDeOrigem === 'EUA'){
+    console.log('norte americano')
+} else if (paisDeOrigem === 'Inglatera'){
+    console.log('inglês')
+} else if (paisDeOrigem === 'França'){
+    console.log('francês')
+} else if (paisDeOrigem ==='Italia'){
+    console.log('italiano')
+} else if (paisDeOrigem === 'Canadá'){
+    console.log('canadense')
+}else {
+    console.log('nacionalidade não encontrada')
+}
+*/
+/*
+let paisDeOrigem
+switch (paisDeOrigem){
+    case 'Brasil':
+        console.log('brasileiro')
+        break
+    case 'EUA':
+        console.log('norte americano')
+        break
+    case 'Inglaterra':
+        console.log('inglês')
+        break
+    default:
+        console.log('nacionalidade não encontrada')
+        break        
+}
+*/
+/*
+let Pokémon = prompt("escolha seu pokémon")
+switch (Pokémon){
+    case 'Bulbasauro':
+        console.log('Planta e Veneno')
+        break
+    case 'Charmander':
+        console.log('Fogo')
+        break
+    case 'Squirtle':
+        console.log('Água')
+        break
+    default:
+        console.log('Pokémon não encontrado')
+        break
+}
+*/
+ 
+let condicao1 = true
+let condicao2 = false
+
+if (condicao1 && condicao2){
+    //Entra aqui se ambas forem true
+}
+
+if (!condicao1){
+    //Entra aqui se condicao for false
+}
+
+
+/*
+let faculdede = prompt ("você já concluído o ensino médio")
+prompt("qual a sua idade")
+prompt("você está cursando outra faculdade")
+
+
+
+
+
+
+
