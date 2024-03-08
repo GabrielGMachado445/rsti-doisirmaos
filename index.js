@@ -345,7 +345,7 @@ switch (Pokémon){
         break
 }
 */
- 
+ /*
 let condicao1 = true
 let condicao2 = false
 
@@ -356,12 +356,60 @@ if (condicao1 && condicao2){
 if (!condicao1){
     //Entra aqui se condicao for false
 }
-
+*/
 
 /*
 let faculdede = prompt ("você já concluído o ensino médio")
 prompt("qual a sua idade")
 prompt("você está cursando outra faculdade")
+*/
+/*
+function podeEntrarNaFaculdade(ensinoMedio, idade, 
+faculdade){
+    if(idade >= 18){
+        if(ensinoMedio == "sim"){
+            if(faculdade !== "sim"){
+                return("voce pode entrar na faculdade")
+            }
+        }
+ 
+    }
+    else{return "voce NAO pode entrar nafaculdade"}
+}
+console.log(
+ podeEntrarNaFaculdade(
+    prompt("voce concluiu o ensino medio"),
+    Number(prompt("qual a sua idade")),
+    prompt("voce ja esta cursando alguma faculdade"),
+ )
+)
+*/
+
+
+
+/*
+
+function calcularArea(base, altura) {
+    return base * altura;
+}
+function calcularArea(valores = []) {
+    valores[0] = Number(valores[0]);
+    valores[1] = Number(valores[1]);
+
+    var areaCalculada = calculaArea(valores[0],valores[1])
+    var areaTotal = calcularArea([areaCalculada,areaCalculada,areaCalculada,
+        areaCalculada]);
+
+        return areaTotal;
+    
+}
+
+function pegaValores() {
+    return calculaValores([prompt("digite a base"), prompt("Digite a autura")]);
+}
+
+console.log(pegaValores());
+*/
 
 
 
