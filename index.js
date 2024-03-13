@@ -411,9 +411,80 @@ function pegaValores() {
 console.log(pegaValores());
 */
 
+/*
+let i = 0
 
+while (i < 10) {
+    console.log(i)
+i++
+}
+*/
+/*
+let estomago = 0;
 
+while (estomago < 100) {
+    console.log("Quero comer mais coxinha");
+    estomago = estomago + 10;
+}
+*/
 
+/*
+function somaNueros() {
+    let soma =0;
+    let numero = 1;
+    while (numero !==0){
+    numero = Number(prompt("Dijite o número (ou 0 para sair):"));
+soma += numero;
+}
+    console.log(`A soma dos números digitados é: $
+    {soma}`);
+}
+somaNueros();
+*/
+/*
+for(let i = 0; i < 10; i++){
+    console.log(i)
+}
+*/
+/*
+const numeros = [14, 67, 89, 15, 23]
 
+for(let i = 0; i < 5; i++){  
+    const elemento = numeros[i]
+    console.log(elemento)
+}
+*/
+/*
+const numeros = [11, 15, 18, 14, 12, 13]
 
+for(let i = 0; i < 5; i++){
+    const elemento = numeros[i]
+    console.log(elemento) 
+}
+*/
+/*
+function valorMaior(array){
+    var numeroMaior = array[0];
+    for(let index = 0; index < array.length; index++){
+        const element = array[index];
+        if(element > numeroMaior){
+            numeroMaior + element
+        }
+    }
+    return numeroMaior;
+}
+var meuArray = [11, 15, 18, 14, 12, 13]
+console.log(valor(meuArray));
 
+*/
+
+function somarNumerosComArray(array){
+    var numeros = array[0]
+    while(numero !== 0){
+        numero = Number(prompt("Dijite o número ou (0 para sair):"));
+        
+        var soma = numeros . reduce((acumulador, numero) => acumulador + numero, 0); 
+        return soma 
+    }
+
+}
