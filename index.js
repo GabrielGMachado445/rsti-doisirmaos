@@ -477,7 +477,7 @@ var meuArray = [11, 15, 18, 14, 12, 13]
 console.log(valor(meuArray));
 
 */
-
+/*
 function somarNumerosComArray(array){
     var numeros = array[0]
     while(numero !== 0){
@@ -488,3 +488,4 @@ function somarNumerosComArray(array){
     }
 
 }
+*/
